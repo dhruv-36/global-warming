@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Warming</title>
+    <style>
+      /* Add your styles here */
+      body {
+        background-image: url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: Arial, sans-serif;
+        color: #fff;
+        background-position: center center;
+        background-attachment: fixed;
+      }
+      header {
+        text-align: center;
+        padding: 20px 0;
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      nav li {
+        margin: 0 10px;
+      }
+      nav a {
+        text-decoration: none;
+        color: #fff;
+      }
+      nav a:hover {
+        color: #ccc;
+      }
+      index {
+        padding: 20px;
+      }
+      section {
+        margin-bottom: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 5px;
+      }
+      h1, h2 {
+        margin: 0;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      h1 {
+        font-size: 48px;
+      }
+      h2 {
+        font-size: 36px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      label {
+        font-size: 24px;
+        margin-right: 10px;
+      }
+      select {
+        font-size: 18px;
+        padding: 5px;
+        border-radius: 5px;
+      }
+      button {
+        font-size: 18px;
+        padding: 5px 20px;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: all 0.2s ease;
+      }
+      button:hover {
+        background-color: #0062cc;
+      }
+      footer {
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        text-align: center;
+      }
+      footer p {
+        margin: 0;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Global Warming</h1>
+    </header>
+    <nav>
+      <h2>Climate Forecast</h2>
+      <ul>
+        <li><a href="About.html">About</a></li>
+        <li><a href="About.html">Contact</a></li>
+        <li><a href="Cities.html">Cities</a></li>
+        <li><a href="Link.html">Links</a></li>
+      </ul>
+    </nav>
+    <index>
+      <section>
+        <h2>About Global Warming</h2>
+        <p>Global warming is the long-term heating of Earth's climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth's atmosphere.</p>
+      </section>
+      <section>
+        <h2>Impact of Global Warming</h2>
+        <p>Global warming has a wide range of negative impacts on the environment and human society, including rising sea levels, increased frequency and severity of natural disasters, disruption of ecosystems and biodiversity, and negative effects on human health.</p>
+      </section>
+      <section>
+        <h2>Cities Forecast</h2>
+        <ul>
+          <li>Choose the CIty which you live in too Know the current and future Prediction values like<br>1. Temperature<br> 2. Sea Level Rise <br>3. Precipitation <br>4. wind</li>
+          <br><li>Select the city you want to Gather information About<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Start typing for ex:- You wan't to choose Chennai start typing Che.....i]</li>
+        </ul>
+        <div style="text-align:center;">
+          <label for="city-select">Select a city:</label>
+          <select id="citySelect">
+            <option value="Agra">Agra</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Dehradun">Dehradun</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Diu">Daman and Diu</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Indore">Indore</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Kanyakumari">Kanyakumari</option>
+            <option value="Kochi">Kochi</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Lucknow">Lucknow</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Nagpur">Nagpur</option>
+            <option value="Patna">Patna</option>
+            <option value="Puri">Puri</option>
+            <option value="Surat">Surat</option>
+            <option value="Thiruvanthapuram">Thiruvanthapuram</option>
+            <option value="Udupi">Udupi</option>
+            <option value="Vishakapatnam">Vishakapatnam</option>
+          </select>
+          <button onclick="showForecast()">Show forecast</button>
+        </div>
+  <script>
+    function showForecast() {
+      const citySelect = document.getElementById("citySelect");
+      const cityValue = citySelect.value;
+      window.location.href = `forecast-${cityValue}.html`;
+    }
+  </script>
+</section>
+      <section>
+        <h2>The Science Behind Global Warming</h2>
+        <p>Global warming is caused by the greenhouse effect, which occurs when certain gases in Earth's atmosphere trap heat from the sun and prevent it from escaping back into space. These gases include carbon dioxide, methane, and nitrous oxide, which are released into the atmosphere primarily by human activities such as burning fossil fuels, deforestation, and agriculture.</p>
+        <p>Scientists have been studying the Earth's climate for decades, using data from sources such as weather stations, satellites, and ice cores to understand how the planet is changing over time. They have found that the Earth's temperature has been increasing at an unprecedented rate in recent decades, and that this warming is primarily driven by human activities.</p>
+        <p>While there is still some uncertainty around exactly how much the Earth will warm in the coming decades and what the specific impacts will be, there is broad scientific consensus that global warming is a major threat to human society and the natural world, and that urgent action is needed to reduce greenhouse gas emissions and limit the damage.</p>
+</section>
+
+<section>
+  <h2>What You Can Do</h2>
+  <p>There are many things individuals can do to help reduce their carbon footprint and slow the pace of global warming, such as using energy-efficient appliances, reducing water usage, using public transportation or carpooling, and eating a plant-based diet.</p>
+  <form id="tipForm">
+    <label for="tips">Choose a tip:</label>
+    <select id="tips">
+      <option value="1">Use energy-efficient light bulbs</option>
+      <option value="2">Reduce, reuse, and recycle</option>
+      <option value="3">Eat a plant-based diet</option>
+      <option value="4">Use public transportation or carpool</option>
+    </select>
+    <button type="submit">Learn More</button>
+  </form>
+</section>
+
+<script>
+  const tipForm = document.getElementById("tipForm");
+  tipForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const tipSelect = document.getElementById("tips");
+    const tipValue = tipSelect.value;
+    window.location.href = `tip-${tipValue}.html`;
+  });
+</script>
+
+<section>
+        <h2>Policy Responses to Global Warming</h2>
+        <p>Governments and international organizations around the world are taking steps to address global warming through a range of policy measures. These include:</p>
+        <ul>
+          <li>Carbon pricing, which puts a price on greenhouse gas emissions to encourage companies and individuals to reduce their emissions.</li>
+          <li>Renewable energy subsidies and mandates, which encourage the development and use of renewable energy sources like wind and solar power.</li>
+          <li>Energy efficiency standards for buildings, appliances, and vehicles, which help to reduce energy use and emissions.</li>
+          <li>International agreements such as the Paris Agreement, which commits countries to working together to limit global warming to well below 2 degrees Celsius above pre-industrial levels.</li>
+        </ul>
+        <p>While there is still much work to be done to address global warming, these policy responses are an important step towards a more sustainable future.</p>
+</section>
+<section>
+        <h2>Climate Action Resources</h2>
+        <p>If you're interested in learning more about global warming and taking action to reduce your carbon footprint, there are many resources available to help. Here are a few:</p>
+        <ul>
+          <li>The IPCC (Intergovernmental Panel on Climate Change) website provides a wealth of information on the science of climate change and the impacts and risks of global warming.</li>
+          <li>The UNFCCC (United Nations Framework Convention on Climate Change) website has information on international climate negotiations and policy responses to global warming.</li>
+          <li>The EPA (Environmental Protection Agency) website has information on individual actions you can take to reduce your carbon footprint, such as using energy-efficient appliances and reducing food waste.</li>
+          <li>The Climate Reality Project is a nonprofit organization founded by former US Vice President Al Gore that works to raise awareness of the impacts of global warming and promote climate action.</li>
+        </ul>
+        <p>By educating ourselves and taking action, we can all play a role in helping to address one of the greatest challenges facing our planet today.</p>
+</section>
+</index>
+    <footer>
+      <p>&copy; 2023 Global Warming Awareness</p>
+    </footer>
+  </body>
+</html>

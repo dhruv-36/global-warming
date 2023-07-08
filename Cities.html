@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cities Weather Forecast</title>
+	<style>
+		body {
+			background-color:yellow;
+			background-image: url('https://www.transparenttextures.com/patterns/45-degree-fabric-light.png');
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+		h1 {
+			margin-top: 50px;
+			font-size: 48px;
+			text-shadow: 2px 2px 4px #000000;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		li {
+			margin: 20px;
+			transform-style: preserve-3d;
+			transform: perspective(500px) rotateY(0deg);
+			transition: transform 0.5s;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100px;
+			width: 200px;
+			background-color: lightyellow;
+			border-radius: 20px;
+			box-shadow: 2px 2px 4px #000000;
+			cursor: pointer;
+		}
+		li:hover {
+			transform: perspective(500px) rotateY(360deg);
+		}
+		a {
+			font-size: 24px;
+			color: #333333;
+			text-decoration: none;
+			text-shadow: 2px 2px 4px #FFFFFF;
+		}
+	</style>
+</head>
+<body>
+	<h1>List of Cities</h1>
+	<ul>
+
+		<li><a href="forecast-Agra.html">Agra</a></li>
+		<li><a href="forecast-Ahmedabad.html">Ahmedabad</a></li>
+		<li><a href="forecast-Bangalore.html">Bangalore</a></li>
+		<li><a href="forecast-Chandigarh.html">Chandigarh</a></li>
+		<li><a href="forecast-Chennai.html">Chennai</a></li>
+		<li><a href="forecast-Dehradun.html">Dehradun</a></li>
+		<li><a href="forecast-Delhi.html">Delhi</a></li>
+		<li><a href="forecast-Diu.html">Deman and Diu</a></li>
+		<li><a href="forecast-Hyderabad.html">Hyderabad</a></li>
+		<li><a href="forecast-Indore.html">Indore</a></li>
+		<li><a href="forecast-Jaipur.html">Jaipur</a></li>
+		<li><a href="forecast-Kanyakumari.html">Kanyakumari</a></li>
+		<li><a href="forecast-Kochi.html">Kochi</a></li>
+		<li><a href="forecast-Kolkata.html">Kolkata</a></li>
+		<li><a href="forecast-Lucknow.html">Lucknow</a></li>
+		<li><a href="forecast-Mumbai.html">Mumbai</a></li>
+		<li><a href="forecast-Nagpur.html">Nagpur</a></li>
+		<li><a href="forecast-Patna.html">Patna</a></li>
+		<li><a href="forecast-Puri.html">Puri</a></li>
+		<li><a href="forecast-Surat.html">Surat</a></li>
+		<li><a href="forecast-Thiruvanthapuram.html">Thiruvanthapuram</a></li>
+		<li><a href="forecast-Udupi.html">Udupi</a></li>
+		<li><a href="forecast-Vishakapatnam.html">Vishakapatnam</a></li>
+	</ul>
+</body>
+</html>
